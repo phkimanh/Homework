@@ -1,0 +1,17 @@
+Switch: Thiết bị chuyển mạch 
+LAN: Mạng LAN giúp chp thiết bị di động 
+Router là gắn cục wifi với switch
+ISO-OSI: sẽ đi từ application máy 1 xuống presentation rồi xuống session hoặc thẳng transport->tìm địa chỉ IP trên network rồi xuống data link sau đó truyền qua physical đến máy thứ 2, làm ngược lên từ Physical đến application
+Application: lớp ứng dụng, theo em hiểu là các trình duyệt sử duyệt có thể sử dụng https, HTTP,…
+Presentation: xử lý data khi encrypt lên mạng
+Session: connent application, một session quản lý 1 ứng dụng/máy
+Transport: truyền tải dữ liệu
+Network: này theo em hiểu là liên quan đến   chuyển tiếp, địa chỉ ip
+Data link: sth like swich, Internet
+Physics: này giống như dây nhợ gắn vô máy tính..
+Browser → OS (no cache?) → DNS resolver (no cache?) → ISP (Internet Service Provider, no cache?) → TLD (don’t no that domain but knows which DNS server has it) → returns DNS IP → ISP takes DNS IP and asks that DNS server → DNS server returns web IP → ISP returns IP to our DNS server → our DNS server returns to OS → OS returns to Browser
+Làm sao TLD server biết được server nào giữ domain của mình trong khi nó không biết domain của mình tương ứng với ip máy nào?
+-> Lúc đăng kí domain sẽ gửi cho TLD Domain quản lí
+TCP: để đảm bảo 2 cái kết nối 2 chiều với nhau
+Kiểu dữ liệu HTTP gửi đi là plain text
+HTTP và HTTPS khác nhau ở chỗ có thêm secure bằng cách mã hóa dữ liệu để chỉ có 2 máy hiểu
