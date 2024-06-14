@@ -18,7 +18,7 @@ function createProductHtml(product) {
     productItem.appendChild(productName);
     productItem.appendChild(productDescription);
 
-    if (product.discount && product.discount > 0) {
+    if (product.discount > 0) {
         const discountLabel = document.createElement('div');
         discountLabel.classList.add('discount');
         discountLabel.textContent = `-${product.discount}%`;
