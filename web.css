@@ -1,0 +1,66 @@
+#top-page {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.line {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#top-logo {
+    position: absolute;
+    left: 0;
+}
+#head {
+    position: relative; 
+    left: -10px;
+    text-align: left;
+    margin-right: 880px;
+}
+#box {
+    position: absolute;
+    top: 270px;
+    right: 50px;
+    background-color: rgb(245, 227, 191);
+}
+#yellow {
+    color: rgb(151, 106, 27);
+    text-align: left;
+}
+#white-yellow {
+    color: white;
+    background-color:rgb(151, 106, 27);
+}
+#box {
+    text-align: left;
+}
+#top-mid-page {
+    text-align: center;
+}
+#Browse {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 10px;
+}
+.item-page {
+    text-align: center;
+    margin: 5px;
+}
+.img-page { 
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.label {
+    color: black;
+}
